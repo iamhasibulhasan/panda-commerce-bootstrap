@@ -2,6 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
 /* body{
     font-family: 'Poppins', sans-serif;
 } */
+/* carousel */
+.panda-slide .carousel-item{
+    background-color: #fceae8;
+    border-radius: 1em;
+}
+/* categories */
+.categories img{
+    width: 100px;
+}
+/* shoes/backpack */
+.panda-card{
+    border: 0;
+    border-radius: 0.7em;
+}
+.panda-card-footer{
+    background-color: white;
+    border: 0;
+    margin-bottom: 10px;
+}
+/* footer */
+.subscribe{
+    background-color: #fceae8;
+    border-radius: 0.8em;
+    text-align: center;
+}
+footer small a{
+    text-decoration: none;
+}

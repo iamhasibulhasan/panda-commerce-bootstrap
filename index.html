@@ -16,7 +16,7 @@
     <!-- Header Section/ Nav Bar Section -->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +25,16 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#shoe">Shoes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                       </li>
                     </ul>
                   </div>
@@ -44,9 +44,9 @@
     </header>
 
     <!-- Carousel Section -->
-    <section>
+    <section id="home">
         <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                   <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -58,7 +58,7 @@
                         <div class="col-md-7">
                             <h1>Mega LCD TV For Sports</h1>
                             <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                            <h3>$1200</h3>
+                            <h3 class="text-warning">$1200</h3>
                             <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                         </div>
                         <div class="col-md-5">
@@ -71,7 +71,7 @@
                         <div class="col-md-7">
                             <h1>Cool Dude Headphone</h1>
                             <p>This is the best headphone in the world for people who just want to waste time in front of funky world</p>
-                            <h3>$420</h3>
+                            <h3 class="text-warning">$420</h3>
                             <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                         </div>
                         <div class="col-md-5">
@@ -84,7 +84,7 @@
                         <div class="col-md-7">
                             <h1>X-Box for your living room</h1>
                             <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
-                            <h3>$600</h3>
+                            <h3 class="text-warning">$600</h3>
                             <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                         </div>
                         <div class="col-md-5">
@@ -103,11 +103,12 @@
                 </a>
               </div>
         </div>
+    <!-- Categories Section -->
     </section>
     <main class="container">
         <section>
-            <div class="container px-4 mt-5">
-                <div class="row gx-5">
+            <div class="container px-4 mt-5 categories">
+                <div class="row g-5">
                   <div class="col">
                    <div class="p-3 rounded bg-warning d-flex justify-content-around align-items-center">
                        <h1 class="text-white">Watch</h1>
@@ -130,44 +131,44 @@
             </div>
         </section>
         <!-- Shoes Section -->
-        <section class="mt-5">
+        <section id="shoe" class="mt-5">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card h-100 shadow panda-card">
                     <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Supply 350</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt provident qui possimus amet alias nostrum repudiandae id molestias voluptatibus?</p>
                       <h5>$350</h5>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="card-footer text-center panda-card-footer">
                       <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card h-100 shadow panda-card">
                     <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Nike 360</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus quas, quos accusantium magnam blanditiis veritatis nostrum optio nobis perspiciatis.</p>
                       <h5>$350</h5>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="card-footer text-center panda-card-footer">
                         <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card h-100 shadow panda-card">
                     <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Red Arimax</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sunt excepturi laboriosam iste modi in eligendi atque obcaecati saepe ducimus!</p>
                       <h5>$350</h5>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="card-footer text-center panda-card-footer">
                         <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                     </div>
                   </div>
@@ -175,44 +176,44 @@
               </div>
         </section>
         <!-- Backpack Section -->
-        <section class="mt-5">
+        <section id="backpack" class="mt-5">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card h-100 shadow panda-card">
                     <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Red Laltu Bag</h5>
                       <h5>$350</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt provident qui possimus amet alias nostrum repudiandae id molestias voluptatibus?</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="card-footer text-center panda-card-footer">
                       <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card h-100 shadow panda-card">
                     <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Blue Niltu Bag</h5>
                       <h5>$350</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus quas, quos accusantium magnam blanditiis veritatis nostrum optio nobis perspiciatis.</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="card-footer text-center panda-card-footer">
                         <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-100 shadow">
+                  <div class="card h-100 shadow panda-card">
                     <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Black Kaltu Bag</h5>
                       <h5>$350</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sunt excepturi laboriosam iste modi in eligendi atque obcaecati saepe ducimus!</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="card-footer text-center panda-card-footer">
                         <button class="btn btn-warning">Buy Now <i class="fas fa-shopping-cart"></i></button>
                     </div>
                   </div>
@@ -220,19 +221,19 @@
               </div>
         </section>
         <!-- Subscribe Section -->
-        <section class="mt-5 bg-info">
+        <section id="subscribe" class="mt-5 subscribe">
             <div class="d-flex align-items-center justify-content-center" style="height:300px;">
                 <div>
                     <h1>LET'S STAY IN TOUCH</h1>
                     <h5>Get updates on sales, specials and more</h5>
-                    <input type="text" name="" id="" placeholder="Enter your email">
+                    <input type="text" name="" id="" placeholder="Enter your email" class="form-control mb-3">
                     <button class="btn btn-warning">SUBMIT</button>
                 </div>
             </div>
         </section>
     </main>
     <footer class="mt-5 text-center">
-        <small>©2020. Panda Commerce. All rights reserved. <a href="facebook.com/imtheridu">Hasibul Hasan</a>, Bangladesh</small>
+        <small>©2020. Panda Commerce. All rights reserved. <a target="_blank_" href="https://www.facebook.com/imtheridu/">Hasibul Hasan</a>, Bangladesh</small>
     </footer>
 
     <!-- Js File Link -->
