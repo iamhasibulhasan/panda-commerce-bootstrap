@@ -1,2 +1,3 @@
-https://imhasibulhasan.github.io/panda-commerce-bootstrap/# panda-commerce-bootstrap
-<a href="https://imhasibulhasan.github.io/panda-commerce-bootstrap/"></a>
+# panda-commerce
+
+### [Live site](https://imhasibulhasan.github.io/panda-commerce-bootstrap/)
